@@ -6,7 +6,6 @@
 using namespace std;
 
 
-//Ôàìèëèÿ
 struct FIO
 {
 	char Familia[15];
@@ -14,7 +13,6 @@ struct FIO
 	char Papa[15];
 };
 
-//Äàòà ðîæäåíèÿ
 struct ROJDENIE
 {
 	unsigned short Rday;
@@ -29,7 +27,6 @@ struct POSTUPLENIE
 	unsigned short Pyear;
 };
 
-//Ïðåäìåò è îöåíêà
 struct PredmetOcenka
 {
 	char predmet[20];
@@ -43,8 +40,6 @@ struct Session
 };
 
 
-
-//Ñòðóêòóðà äàííûõ
 struct Student
 {
 	struct FIO fio;
@@ -60,7 +55,6 @@ struct Student
 };
 
 
-//Ïðîòîòèïû ôóíêöèé
 void DataEnter(Student* (&d), int& n);
 void DataPrint(Student* d, int n);
 void DataChange(Student* (&d), int n);
