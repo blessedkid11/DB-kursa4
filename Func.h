@@ -6,7 +6,7 @@
 using namespace std;
 
 
-//Фамилия
+//Г”Г Г¬ГЁГ«ГЁГї
 struct FIO
 {
 	char Familia[15];
@@ -14,7 +14,7 @@ struct FIO
 	char Papa[15];
 };
 
-//Дата рождения
+//Г„Г ГІГ  Г°Г®Г¦Г¤ГҐГ­ГЁГї
 struct ROJDENIE
 {
 	unsigned short Rday;
@@ -29,7 +29,7 @@ struct POSTUPLENIE
 	unsigned short Pyear;
 };
 
-//Предмет и оценка
+//ГЏГ°ГҐГ¤Г¬ГҐГІ ГЁ Г®Г¶ГҐГ­ГЄГ 
 struct PredmetOcenka
 {
 	char predmet[20];
@@ -44,7 +44,7 @@ struct Session
 
 
 
-//Структура данных
+//Г‘ГІГ°ГіГЄГІГіГ°Г  Г¤Г Г­Г­Г»Гµ
 struct Student
 {
 	struct FIO fio;
@@ -59,16 +59,8 @@ struct Student
 	Session sess[100];
 };
 
-struct node
-{
-	string data;
-	node* next;
-};
 
-
-
-
-//Прототипы функций
+//ГЏГ°Г®ГІГ®ГІГЁГЇГ» ГґГіГ­ГЄГ¶ГЁГ©
 void DataEnter(Student* (&d), int& n);
 void DataPrint(Student* d, int n);
 void DataChange(Student* (&d), int n);
